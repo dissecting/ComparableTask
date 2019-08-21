@@ -4,6 +4,7 @@ public class ContactsSortTest {
     static void testMainLogic() {
         List<ContactsSort> contactsList = new List<ContactsSort>();
         Map<ContactsSort, String> namesByObject = new Map<ContactsSort, String>();
+
         ContactsSort firstContact = new ContactsSort(new Contact(
             FirstName = 'Ivan',
             LastName = 'Egle',
