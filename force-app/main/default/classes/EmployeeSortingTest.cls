@@ -35,13 +35,11 @@ private class EmployeeSortingTest {
 
         empList.sort();
 
-        System.debug(empList);
         System.assertEquals(System.hashCode(thirdEmployee), System.hashCode(secondEmployee));
         System.assertEquals(3, namesByEmployee.size());
         System.assertEquals(true, namesByEmployee.containsKey(firstEmployee));
         System.assertEquals(true, namesByEmployee.containsKey(secondEmployee));
         System.assertEquals(true, namesByEmployee.containsKey(thirdEmployee));
-        System.assertEquals(true, namesByEmployee.containsKey(fourthEmployee));
         System.assertEquals('AA', empList[0].Name);
         System.assertEquals('AA', empList[1].Name);
         System.assertEquals('BB', empList[2].Name);

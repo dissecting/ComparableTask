@@ -50,7 +50,6 @@ public class ContactsSortTest {
         System.assertEquals(true, namesByObject.containsKey(firstContact));
         System.assertEquals(true, namesByObject.containsKey(secondContact));
         System.assertEquals(true, namesByObject.containsKey(thirdContact));
-        System.assertEquals(true, namesByObject.containsKey(fourthContact));
         System.assertEquals(false, namesByObject.containsKey(fifthContact));
         System.assertEquals('Demchyk', contactsList[0].cont.LastName);
         System.assertEquals('Egle', contactsList[1].cont.LastName);
